@@ -1,0 +1,7 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    { "name": "server", "runtimeExecutable": "dotnet", "runtimeArgs": ["run", "--project", "AMS_App.Server", "--launch-profile", "https"], "port": 7075, "url": "https://localhost:7075" },
+    { "name": "client", "url": "https://localhost:59696" }
+  ]
+}

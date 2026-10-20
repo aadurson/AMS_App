@@ -1,0 +1,7 @@
+<Solution>
+  <Project Path="ams_app.client/ams_app.client.esproj">
+    <Build />
+    <Deploy />
+  </Project>
+  <Project Path="AMS_App.Server/AMS_App.Server.csproj" />
+</Solution>

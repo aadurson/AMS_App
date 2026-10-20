@@ -1,0 +1,23 @@
+@AMS_App.Server_HostAddress = http://localhost:5133
+
+GET {{AMS_App.Server_HostAddress}}/api/categories
+Accept: application/json
+
+###
+
+GET {{AMS_App.Server_HostAddress}}/api/products?category=Skincare
+Accept: application/json
+
+###
+
+GET {{AMS_App.Server_HostAddress}}/api/testimonials
+Accept: application/json
+
+###
+
+POST {{AMS_App.Server_HostAddress}}/api/newsletter
+Content-Type: application/json
+
+{ "email": "test@example.com" }
+
+###
